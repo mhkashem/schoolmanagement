@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--<base href="/test/" />-->
+    <title>Daffodil International School</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+
+    <!--CSS-->
+    <link href="bootstrap-3.3.7/dist/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="bootstrap-3.3.7/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/nav.css" rel="stylesheet" />
+    <link href="assets/css/angular-moment-picker.min.css" rel="stylesheet" />
+    <link href="css/print.css" rel="stylesheet" />
+    <link href="css/TabStyleSheet.css" rel="stylesheet" />
+    <!--Script-->
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+    <script src="jQuery/jquery-3.0.0.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+    <script src="jQuery/jquery-ui-1.12.1.js"></script>
+    <!--<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.0.js"></script>-->
+    <script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/moment-with-locales.js"></script>
+    <script src="assets/js/angular-moment-picker.min.js"></script>
+    
+
+    <!--My Script-->
+    <script src="app/app.js"></script>
+    <script src="app/route.js"></script>
+
+
+    <!--Controller-->
+    <script src="components/login/Login.js"></script>
+    <script src="components/dashboard/Parent/ParentDashboard.js"></script>
+    <script src="components/dashboard/Parent/Profile/Profile.js"></script>
+    <script src="components/dashboard/Parent/Profile/ProfileEdit.js"></script>
+    <script src="components/dashboard/Parent/Admit/Admit.js"></script>
+    <script src="components/dashboard/Parent/AcademicDocument/AcademicDocument.js"></script>
+    <script src="components/dashboard/Parent/MyParent/studentParent.js"></script>
+
+
+    <!--Service-->
+    <script src="app/Shared/Service/student.service.js"></script>
+
+
+
+    <!-- Resources -->
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="css/chart.css" rel="stylesheet" />
+
+
+
+    <script type="text/javascript">
+
+        $('.vertical .progress-fill span').each(function () {
+            var percent = $(this).html();
+            var pTop = 100 - (percent.slice(0, percent.length - 1)) + "%";
+            $(this).parent().css({
+                'height': percent,
+                'top': pTop
+            });
+        });
+    </script>
+
+    <!--Admit-->
+    <script type="text/javascript">
+        $('.collapse').on('shown.bs.collapse', function () {
+            $(this).prev().find(".glyphicon").removeClass("glyphicon-plus-sign").addClass("glyphicon-minus-sign");
+        });
+
+        $('.collapse').on('hidden.bs.collapse', function () {
+            $(this).prev().find(".glyphicon").removeClass("glyphicon-minus-sign").addClass("glyphicon-plus-sign");
+        });
+    </script>
+
+    <!--Extternal css-->
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Custom Theme files -->
+
+</head>
+<body ng-app="MyApp">
+
+    <div ui-view></div>
+
+
+</body>
+</html>

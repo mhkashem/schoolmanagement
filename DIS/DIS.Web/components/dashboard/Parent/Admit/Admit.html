@@ -1,0 +1,126 @@
+<!--modalAdmitCard Start-->
+<div class="modal fade" id="modalAdmitCard">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-title">
+                    <h3 class="text-info">
+                        Admit Card
+                    </h3>
+                </div>
+            </div>
+            <div class="modal-body" id="printIt">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            Admit Card
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-12">
+                            <div class="col-md-8 col-print-8">
+                                <div class="row">
+                                    <div class="col-md-5 col-print-5">
+                                        <label class="control-label">Student Name:</label>
+                                    </div>
+                                    <div class="col-md-5 col-print-5">
+                                        <label class="control-label">Abul Kashem</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5 col-print-5">
+                                        <label class="control-label">Id:</label>
+                                    </div>
+                                    <div class="col-md-5 col-print-5">
+                                        <label class="control-label">151-35-900</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5 col-print-5">
+                                        <label class="control-label">Department:</label>
+                                    </div>
+                                    <div class="col-md-5 col-print-5">
+                                        <label class="control-label">SWE</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-print-4">
+                                <img src="Images/Human.jpg" class="img-responsive img-thumbnail" alt="Preview" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer videologin">
+                <input type="submit" class="btn btn-block btn-primary" value="Print" ng-click="printContent('printIt')" />
+            </div>
+        </div>
+    </div>
+</div>
+<!--modalAdmitCard End-->
+<!--modalProblems End-->
+<!--Modal Content End-->
+
+
+<div class="container-fluid">
+
+    <div class="container-fluid">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-primary" id="accordion">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        My Admit Card
+                    </h4>
+                </div>
+        <div class="panel-body">
+            <div class="well videologin ">
+                <a  data-target="#panelBodyOne" data-toggle="collapse" class="btn-block admit_class">
+                    Class I
+                    <span class="glyphicon glyphicon-plus-sign"></span>
+                </a>
+            </div>
+            <div id="panelBodyOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li><a  data-toggle="modal" data-target="#modalAdmitCard">Mid-I</a></li>
+                        <li><a  data-toggle="modal" data-target="#modalAdmitCard">Mid-II</a></li>
+                        <li><a  data-toggle="modal" data-target="#modalAdmitCard">Final</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="well videologin admit_class">
+                <a  data-target="#panelBodyTwo" data-toggle="collapse" class="btn-block admit_class">
+                    Class II
+                    <span class="glyphicon glyphicon-plus-sign"></span>
+                </a>
+            </div>
+            <div id="panelBodyTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li><a  data-toggle="modal" data-target="#modalAdmitCard">Mid-I</a></li>
+                        <li><a  data-toggle="modal" data-target="#modalAdmitCard">Mid-II</a></li>
+                        <li><a data-toggle="modal" data-target="#modalAdmitCard">Final</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="well videologin admit_class">
+                <a  data-target="#panelBodyThree" data-toggle="collapse" class="btn-block admit_class">
+                    Class III
+                    <span class="glyphicon glyphicon-plus-sign"></span>
+                </a>
+            </div>
+            <div id="panelBodyThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li><a  data-toggle="modal" data-target="#modalAdmitCard">Mid-I</a></li>
+                        <li><a  data-toggle="modal" data-target="#modalAdmitCard">Mid-II</a></li>
+                        <li><a  data-toggle="modal" data-target="#modalAdmitCard">Final</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>

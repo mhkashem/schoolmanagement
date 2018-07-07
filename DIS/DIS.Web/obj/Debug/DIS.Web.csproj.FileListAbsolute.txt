@@ -1,0 +1,37 @@
+E:\DSL\DIS\DIS.Web\bin\DIS.Web.dll.config
+E:\DSL\DIS\DIS.Web\bin\DIS.Web.dll
+E:\DSL\DIS\DIS.Web\bin\DIS.Web.pdb
+E:\DSL\DIS\DIS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DSL\DIS\DIS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DSL\DIS\DIS.Web\obj\Debug\DIS.Web.csprojResolveAssemblyReference.cache
+E:\DSL\DIS\DIS.Web\obj\Debug\DIS.Web.csproj.CoreCompileInputs.cache
+E:\DSL\DIS\DIS.Web\obj\Debug\DIS.Web.dll
+E:\DSL\DIS\DIS.Web\obj\Debug\DIS.Web.pdb
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\bin\DIS.Web.dll.config
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\bin\DIS.Web.dll
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\bin\DIS.Web.pdb
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\obj\Debug\DIS.Web.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\obj\Debug\DIS.Web.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\obj\Debug\DIS.Web.csproj.CopyComplete
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\obj\Debug\DIS.Web.dll
+D:\Visual Studio 2017\Projects\DIS\DIS.Web\obj\Debug\DIS.Web.pdb
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\bin\DIS.Web.dll.config
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\bin\DIS.Web.dll
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\bin\DIS.Web.pdb
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\obj\Debug\DIS.Web.csprojResolveAssemblyReference.cache
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\obj\Debug\DIS.Web.csproj.CoreCompileInputs.cache
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\obj\Debug\DIS.Web.dll
+C:\Users\ahasa_000\Desktop\Project\DIS\DIS.Web\obj\Debug\DIS.Web.pdb
+E:\DSL\DSLProject\DIS\DIS.Web\bin\DIS.Web.dll.config
+E:\DSL\DSLProject\DIS\DIS.Web\bin\DIS.Web.dll
+E:\DSL\DSLProject\DIS\DIS.Web\bin\DIS.Web.pdb
+E:\DSL\DSLProject\DIS\DIS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DSL\DSLProject\DIS\DIS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DSL\DSLProject\DIS\DIS.Web\obj\Debug\DIS.Web.csproj.CoreCompileInputs.cache
+E:\DSL\DSLProject\DIS\DIS.Web\obj\Debug\DIS.Web.dll
+E:\DSL\DSLProject\DIS\DIS.Web\obj\Debug\DIS.Web.pdb
+E:\DSL\DSLProject\DIS\DIS.Web\obj\Debug\DIS.Web.csprojResolveAssemblyReference.cache

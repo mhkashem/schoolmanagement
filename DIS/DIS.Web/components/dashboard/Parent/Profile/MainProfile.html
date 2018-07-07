@@ -1,0 +1,22 @@
+﻿<!--<a ui-sref="root.rootProfile.studentInfo">Student Information </a>
+<a ui-sref="root.rootProfile.parentInfo">Parent Information</a>
+<a>Academic Information</a>-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 ">
+            <ul class="nav nav-pills nav-fill tab-on-board bg-primary">
+                <li class="nav-item">
+                    <a class="nav-link active" ui-sref="root.rootProfile.studentInfo">Student Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" ui-sref="root.rootProfile.parentInfo">Parent Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div ui-view="ViewProfile"></div>

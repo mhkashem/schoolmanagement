@@ -1,0 +1,64 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="panel panel-primary">
+                <div class="pane-title">
+                    <h3 class="pane-info">
+                        My Profile
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="well videologin Changing_border">
+                       
+                        <form role="form">
+                            <div class="col-md-8 change_padding">
+                                <div class="form-group icon1">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <input type="text" font color="red" placeholder="Name" name="name" ng-model="student.firstName" class="form-control extra_class" required="" />
+                                </div>
+
+                                <div class="form-group icon1">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <input type="text" placeholder="Gender" name="Gender" ng-model="student.gender" class="form-control extra_class" required="" />
+                                </div>
+
+                                <div class="form-group icon1"
+                                     moment-picker="student.dateOfBirth"
+                                     format="YYYY-MM-DD">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    <input placeholder="dateOfBirth" name="dateOfBirth" format="YYYY-MM-DD"
+                                           class="form-control extra_class" required="" ng-model="student.dateOfBirth"
+                                           ng-model-options="{ updateOn: 'blur' }" />
+                                </div>
+
+                                <div class="form-group icon1">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <input type="text" placeholder="Nationality" name="Nationality" ng-model="student.nationality" class="form-control extra_class" required="" />
+                                </div>
+
+                                <div class="form-group icon1">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <input type="text" placeholder="Roll" name="Roll" ng-model="student.smisAdmissionInfo[0].rollNo" class="form-control extra_class" required="" />
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-responsive img-rounded" src="Images/Human.jpg" ng-src="{{img}}" alt="Preview" />
+                                <input type="file" onchange="angular.element(this).scope().imageUpload(event)" class="btn-block" />
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary btn-block" value="Submit" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+
+    </div>
+
+
+</div>
+<!--Main Visible Content End-->

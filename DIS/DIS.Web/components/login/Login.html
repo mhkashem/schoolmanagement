@@ -1,0 +1,53 @@
+﻿<!-- main -->
+<div class="loginController">
+    <div class="main-agileinfo full-width">
+        <div class="">
+            <img src="../../Images/login.png"  class="contact-w3left"/>
+        </div>
+
+
+
+        <div class="videologin">
+
+            <div class="login_page">
+                <form name="userForm">
+                    <div class="icon1" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="text" placeholder="email" name="email" ng-model="user.Id" class="form-control extra_class" required />
+                        <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">Enter Valid Email</p>
+
+                    </div>
+                    <div class="icon1" ng-class="{ 'has-error' : userForm.password.$invalid && !userForm.password.$pristine }">
+                        <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                        <input type="password" ng-model="user.password" placeholder="Password" name="password" class="form-control extra_class" required />
+                        <p ng-show="userForm.password.$invalid && !userForm.password.$pristine" class="help-block">Enter Valid Password</p>
+
+                    </div>
+
+                    <label class="radio-inline">
+                        <input type="radio" ng-model="user.Type" value="Parent" name="optradio">Parent's
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" ng-model="user.Type" name="optradio" value="Headmaster">Headmaster
+                    </label>
+                 
+                 
+                    <div class="clear"></div>
+                    <div class="bottom">
+                        <!--ng-click="login(user)"   ui-sref="root.Dashboard.headmaster"-->
+                        <input type="submit" name="submit"  ng-click="login(user)"  value="Signin" ng-disabled="userForm.$invalid" />
+                    </div>
+                    <div class="form-group class_forget">
+                        <a >Forgot Password?</a>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="copyw3-agile">
+</div>

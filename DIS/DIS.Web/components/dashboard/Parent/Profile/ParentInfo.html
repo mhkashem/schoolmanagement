@@ -1,0 +1,83 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="panel panel-primary">
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <div class="col-md-8 change_padding">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label class="control-label">Mother Name:</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="control-label">{{value.motherName}}</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label class="control-label">Father Name:</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="control-label">{{value.fatherName}}</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label class="control-label">Mother Mobile :</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="control-label">{{value.mmobile}}</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label class="control-label">Father Mobile :</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="control-label">{{value.fmobile}}</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label class="control-label">Gender:</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="control-label">{{value.gender}}</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label class="control-label">Date Of Birth:</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="control-label">{{value.dateOfBirth | date:'yyyy-MM-dd'}}</label>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label class="control-label">Phone:</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="control-label">{{value.mmobile}}</label>
+                                </div>
+
+                            </div>
+                            <br />
+                            <div class="form-group videologin">
+                                <a class="btn btn-primary btn-block" ui-sref="root.profileEdit({id: value.studentId})">Edit</a>
+                                <!--<input type="submit" ng-click="edit()" class="btn btn-primary btn-block" value="Edit" />-->
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Images/Userp.png" class="img-responsive img-thumbnail" alt="Preview" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+</div>

@@ -1,0 +1,189 @@
+﻿
+<div class="row">
+    <div class="col-md-12">
+        <h2>Parent's Board</h2>
+        <br />
+        <p class="para_class">Hellow {{student.fatherName || "Null"}} and {{student.motherName || "Null"}} Welcome to your child's school board.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+
+        <div class="well dash-box videologin  change_div_clickable">
+            <img class="img-responsive img-rounded change_image" src="../../../Images/Userp.png" alt="Preview" />
+            <h3>Name:{{student.firstName}}&nbsp;{{student.middleName}}&nbsp;{{student.lastName}} <br /> Class: {{student.smisAdmissionInfo[0].admittedClass.className}}</h3>
+        </div>
+
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+
+        <div class="panel panel-primary change_background">
+
+            <div class="panel-body">
+                <div class="row ">
+
+                    <div class="col-md-3">
+
+                        <div class="well dash-box videologin  change_div_clickable">
+                            <h2>৳11504.00</h2>
+                            <h4>Total Payable</h4>
+                        </div><br/>
+
+                    </div>
+                    <div class="col-md-3">
+
+                        <div class="well dash-box videologin  change_div_clickable">
+                            <h2>৳52504.00</h2>
+                            <h4>Total Paid</h4>
+                        </div><br/>
+
+                    </div>
+                    <div class="col-md-3">
+
+                        <div class="well dash-box videologin  change_div_clickable">
+                            <h2>৳3504.00</h2>
+                            <h4>Total Due</h4>
+                        </div><br/>
+
+                    </div>
+
+
+                    <div class="col-md-3">
+
+                        <div class="well dash-box videologin  change_div_clickable">
+                            <h2>৳504.00</h2>
+                            <h4>Total Others</h4>
+                        </div><br/>
+
+                    </div><br/>
+                </div>
+
+
+                <div class="row ">
+
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.rootProfile.studentInfo">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/Userp.png" alt="Preview" />
+                                <h3>My <br /> Profile</h3>
+                            </div>
+                        </a><br/>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.myAdmit">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/Admit-Card.png" alt="Preview" />
+                                <h3>My <br /> Admit</h3>
+                            </div>
+                        </a><br />
+                    </div>
+
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.academicdocument">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/Document.png" alt="Preview" />
+                                <h3>Academic <br /> Document</h3>
+                            </div>
+                        </a><br />
+                    </div>
+
+                    <div class="col-md-3">
+                        <a class="change_toclickable">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/News1.png" alt="Preview" />
+                                <h3>News & <br /> Events</h3>
+                            </div>
+                        </a><br />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.document">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/MyDC.png" alt="Preview" />
+                                <h3>My <br /> Document</h3>
+                            </div>
+                        </a><br />
+                    </div>
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.parent">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/couple.png" alt="Preview" />
+                                <h3>My <br /> Parent</h3>
+                            </div>
+                        </a><br />
+                    </div>
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.payment">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/payment.jpg" alt="Preview" />
+                                <h3>My <br /> Payment</h3>
+                            </div>
+                        </a><br />
+                    </div>
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.problem">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/Problem.jpg" alt="Preview" />
+                                <h3>My <br /> Problems</h3>
+                            </div>
+                        </a><br />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.picker">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/picker.png" alt="Preview" />
+                                <h3>My <br /> Picker</h3>
+                            </div>
+                        </a><br />
+                    </div>
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.routine">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/Time.png" alt="Preview" />
+                                <h3>My <br /> Routine</h3>
+                            </div>
+                        </a><br />
+                    </div>
+
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ng-click="profileButton()">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/Userp.png" alt="Preview" />
+                                <h3>My <br /> Profile</h3>
+                            </div>
+                        </a><br />
+                    </div>
+
+                    <div class="col-md-3">
+                        <a class="change_toclickable" ui-sref="root.mail">
+                            <div class="well dash-box videologin  change_div_clickable">
+                                <img class="img-responsive img-rounded change_image" src="../../../Images/Email.jpg" alt="Preview" />
+                                <h3><br /> Send Mail</h3>
+                            </div>
+                        </a><br />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+
+
+
+
+
+
